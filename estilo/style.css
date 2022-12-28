@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 :root{
-    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font1: Arial, Helvetica, sans-serif;
     --font2: 'Passion one', cursive;
     --font3: 'Sriracha', cursive;
 }
@@ -36,6 +36,7 @@ header > h1{
 
 header > p{
     padding-bottom: 50px;
+    font-family: var(--font1);
 }
 
 header a, footer a{
@@ -93,8 +94,9 @@ section#img2{
 }
 
 footer{
- background-color: black;
- color: white;   
- text-align: center;
- padding: 0.5em;
+    background-color: black;
+    color: white;   
+    text-align: center;
+    padding: 0.5em;
+    font-family: var(--font1);
 }
